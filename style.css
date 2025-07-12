@@ -64,3 +64,20 @@ h1 {
     -webkit-text-fill-color: transparent;
     color: transparent;
 }
+
+.reset-button {
+    font-family: "Inconsolata", monospace;
+    margin-top: 2rem;
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.reset-button:hover {
+    background-color: #1C86EE;
+    transform: scale(1.05);
+}
